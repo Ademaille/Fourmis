@@ -1,10 +1,10 @@
 class Princess extends Femelle{
 
     voler() {
-        return
+        return "La princesse vole pendant le vol nuptiale"
     }
 
     volNuptiale() {
-        return
+        return "La princesse fait le vol nuptiale avec des mâles"
     }
 }

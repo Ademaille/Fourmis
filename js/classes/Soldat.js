@@ -15,6 +15,6 @@ class Soldat extends Femelle{
     }
 
     attaquer() {
-        return
+        return "Pour proteger la colonie des envahisseurs, les soldats attaquent"
     }
 }

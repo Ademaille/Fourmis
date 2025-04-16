@@ -1,10 +1,12 @@
 class Male extends Fourmi {
 
-    feconder() {
-        return
-    }
 
-    voler() {
-        
-    }
+        feconder(reine) {
+            return "La Reine feconde avec les mâles"
+        }
+
+        voler() {
+            return "Les mâles volent pendant le vol nuptial"
+        }
+
 }

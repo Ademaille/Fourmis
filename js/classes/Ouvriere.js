@@ -1,7 +1,9 @@
 class Ouvriere extends Femelle{
     #poste
 
-    constructor(poste) {
+    constructor(poste, age, taille) {
+        super(age, taille)
+
         this.#poste = poste;
     }
 
@@ -14,14 +16,10 @@ class Ouvriere extends Femelle{
     }
 
     creuserGalerie() {
-        return
+        return "L'ouvriére creuse une galerie pour sa colonie"
     }
 
     nettoyageGallerie() {
-        return
+        return "Ensuite elle nettoie les recoins"
     }
-
-    chercherNourriture() {
-        return
-    }
-} 
+}

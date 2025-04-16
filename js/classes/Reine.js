@@ -16,7 +16,7 @@ class Reine extends Fourmi{
     }
 
     pondre() {
-        return
+        return "La reine fourmis pond en moyenne 30 oeufs par jour"
     }
 }
 

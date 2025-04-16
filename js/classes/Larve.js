@@ -3,7 +3,7 @@ class Larve extends Fourmi{
     #type;
 
     constructor(type, age, taille) {
-        super(age, taille)
+    super(age, taille)
         
          this.#type = type;
     }
@@ -12,12 +12,13 @@ class Larve extends Fourmi{
         return this.#type;
     }
 
-    set type(tupe) {
-        this.#type = tupe;
+    set type(types) {
+        this.#type = types;
     }
 
     metamorphosis() {
-        return
+        return ("Les larves en maturité se transforme en fourmis")
+        
     }
 }
 

@@ -1,9 +1,9 @@
 class Eclaireuse extends Femelle{
-    
+
     #rayonAction;
 
-    constructor(rayonAction) {
-
+    constructor(rayonAction, age, taille) {
+    super (age, taille)
         this.#rayonAction = rayonAction;
     }
 
@@ -17,6 +17,6 @@ class Eclaireuse extends Femelle{
 
     explorer() {
 
-        return "l'éclaireuse explore les alentours pour alerter la colonie, si besoin"  
+        return "L'éclaireuse explore les alentours pour alerter la colonie, si besoin"  
     }
 }

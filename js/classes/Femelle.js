@@ -1,6 +1,6 @@
-class Femelle extends Fourmi{
+class Femelle extends Fourmi {
 
     chercherNourriture() {
-        return "La femme fourmi va chercher de la nourriture";
+        return "La femelle fourmi va chercher de la nourriture";
     }
 }
