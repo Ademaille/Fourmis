@@ -1,8 +1,8 @@
 class Soldat extends Femelle{
     #endurance;
 
-    constructor(endurance) {
-
+    constructor(endurance, age, taille) {
+    super(age, taille)
         this.#endurance = endurance;
     }
 

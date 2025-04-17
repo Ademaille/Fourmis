@@ -1,8 +1,8 @@
 class Nourrice extends Ouvriere{
     #listesLarves;
 
-    constructor(listesLarves) {
-
+    constructor(listesLarves, poste) {
+    super(poste)
         this.#listesLarves = listesLarves;
     }
 

@@ -37,7 +37,17 @@ console.log("\nClass Princess")
 console.log(princesse.voler())
 console.log(princesse.volNuptiale())
 
-const Queen = new Reine(30, 1, 0.9)
+const queen = new Reine(30, 1, 0.9)
 
 console.log("\nClass Reine")
-console.log(Queen.pondre())
+console.log(queen.pondre())
+
+const soldats = new Soldat()
+
+console.log("\nClass Soldat")
+console.log(soldats.attaquer())
+
+const nourice = new Nourrice()
+
+console.log("\nClass Nourrice")
+console.log(nourice.nourris())
